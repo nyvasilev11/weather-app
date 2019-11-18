@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className='navigation'>
-      <NavLink to='/LongWeatherForecast' className='nav-el'>
+    <div className="navigation">
+      <NavLink to="/LongWeatherForecast" className="nav-el">
         Long Weather Forecast
       </NavLink>
     </div>

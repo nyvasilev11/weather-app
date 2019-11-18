@@ -5,9 +5,9 @@ import Navigation from "./Navigation";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Navigation />
-      <Route path='/LongWeatherForecast' component={LongWeatherForecast} />
+      <Route path="/LongWeatherForecast" component={LongWeatherForecast} />
     </div>
   );
 }
